@@ -1,0 +1,136 @@
+/*初始化*/
+html{ width:100%;overflow-x:hidden}
+*{ font-size:"微软雅黑"}
+body,ul,li,ol,p,h1,h2,h3,h4,h5,h6,form,input,dl,dt,dd{ margin:0; padding:0;}
+body{ font-size:14px; font-family:"微软雅黑"; color:#fff; line-height:1.7; overflow-x: hidden;}
+a{ text-decoration:none; color: #fff;}
+input:focus{ outline:none;}
+ul{ list-style:none;}
+img{ border:none;}
+textarea{ resize:none;}
+button:hover{ cursor:pointer;}
+.clear{ clear:both; overflow:hidden; height:0;}
+.fl{ float:left;}
+.fr{ float:right;}
+.abs{ position:absolute;}
+.rel{ position:relative;}
+.content{width: 1200px;margin: 0 auto;}
+.em{text-indent: 2em;}
+.tac{text-align: center;}
+.blod{font-weight: 700;}
+
+
+/*关键帧*/
+/*@keyframes love {
+	from{
+		transform: rotate(90deg);
+		right: 180px;
+		top: -262px;
+	}
+	to{
+		transform: rotate(0deg);
+		top: 0px;
+		right: 0px;
+	}
+}
+@-moz-keyframes love {
+	from{
+		transform: rotate(90deg);
+		right: 180px;
+		top: -262px;
+	}
+	to{
+		transform: rotate(0deg);
+		top: 0px;
+		right: 0px;
+	}
+}
+@-webkit-keyframes love {
+	from{
+		transform: rotate(90deg);
+		right: 180px;
+		top: -262px;
+	}
+	to{
+		transform: rotate(0deg);
+		top: 0px;
+		right: 0px;
+	}
+}*/
+/*引号*/
+/*@keyframes fanzhuan {
+	0%{
+		top: 440px;
+		transform:rotateX(180deg);
+		-webkit-transform:rotateX(180deg); 
+		-moz-transform:rotateX(180deg); 
+	}
+	75%{
+		transform:rotateX(0deg);
+		-webkit-transform:rotateX(0deg); 
+		-moz-transform:rotateX(0deg);
+	}
+	100%{
+		top: 85px;
+	}
+}
+@-moz-keyframes fanzhuan {
+	0%{
+		top: 440px;
+		transform:rotateX(180deg);
+		-webkit-transform:rotateX(180deg); 
+		-moz-transform:rotateX(180deg); 
+	}
+	75%{
+		transform:rotateX(0deg);
+		-webkit-transform:rotateX(0deg);
+		-moz-transform:rotateX(0deg); 
+	}
+	100%{
+		top: 85px;
+	}
+}
+@-webkit-keyframes fanzhuan {
+	0%{
+		top: 440px;
+		transform:rotateX(180deg);
+		-webkit-transform:rotateX(180deg); 
+		-moz-transform:rotateX(180deg); 
+	}
+	75%{
+		transform:rotateX(0deg);
+		-webkit-transform:rotateX(0deg);
+		-moz-transform:rotateX(0deg); 
+	}
+	100%{
+		top: 85px;
+	}
+}
+@keyframes daozhuan {
+	0%{
+		bottom: 440px;
+		transform:rotateX(180deg);
+		-webkit-transform:rotateX(180deg);
+		-moz-transform:rotateX(180deg); 
+	}
+	75%{
+		transform:rotateX(0deg);
+		-webkit-transform:rotateX(0deg); 
+		-moz-transform:rotateX(0deg);
+	}
+	100%{
+		bottom: 10px;
+	}
+}
+@keyframes updown{
+	from{
+		transform: translate(0,0px);
+		-webkit-transform: translate(0,0px);
+		-moz-transform: translate(0,0px);
+	}
+	to{
+		transform: translate(0,20px);
+		-webkit-transform: translate(0,20px);
+		-moz-transform: translate(0,20px);
+	}
+}*/

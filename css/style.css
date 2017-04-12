@@ -1,0 +1,182 @@
+header{
+	background: url(../img/img1.jpg) repeat;
+	width: 100%;
+	height: 92px;
+	z-index: 1000000;
+}
+
+.headroom{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: all .2s ease-in-out;
+}
+.headroom--unpinned {
+	top: -92px;
+	}
+.headroom--pinned {
+	top: 0;
+	}
+
+
+
+/*nav*/
+.logo{
+	margin-top: 17px;
+}
+nav{
+	margin-left: 79px;
+}
+nav li{
+	width: 115px;
+	padding-top: 32px;
+	text-align: center;
+	float: left;
+	height: 60px;
+	position: relative;
+}
+nav li a{
+	height: 24px;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+nav li p{
+	text-align: center;
+}
+nav .en{
+	display: none;
+}
+nav li{
+	transform:skew(-30deg);
+	-ms-transform:skew(-30deg); 
+	-moz-transform:skew(-30deg); 
+	-webkit-transform:skew(-30deg); 
+	-o-transform:skew(-30deg); 
+}
+nav li a{
+	transform:skew(30deg);
+	-ms-transform:skew(30deg); 
+	-moz-transform:skew(30deg); 
+	-webkit-transform:skew(30deg); 
+	-o-transform:skew(30deg); 
+}
+.li_bg{
+	background: #c03357;
+	width: 100%;
+	height: 0;
+	position: absolute;
+	z-index: -1;
+	bottom: 0;
+}
+/*第一部分*/
+.section{
+	background-attachment: fixed;
+	position: relative;
+}
+#section1{
+	background: url(../img/cake12.jpg) no-repeat;
+	height: 1008px;
+	overflow: hidden;
+}
+.textbox{
+	margin-top: 335px;
+	width: 600px;
+	height: 440px;
+	overflow: hidden;
+}
+.love{
+	right: 180px;
+	top: -262px;
+}
+.loved{
+	animation: love 1.4s ease-out;
+	right: 0;
+	top: 0;
+}
+.yh1{
+	left: 10px;
+	top: 85px;
+	animation: fanzhuan 1s ease-out;
+}
+.yh2{
+	right: 10px;
+	bottom: 10px;
+	animation: daozhuan 1s ease-out;
+}
+.textbox p{
+	width: 480px;
+	font-size: 26px;
+	margin: 117px 0 0 105px;
+	text-shadow: 0 3px 3px #666;
+	/*display: none;*/
+}
+.textbox p:first-line{
+	font-size: 36px;
+}
+/*.line_up{
+	width: 0px;
+	height: 2px;
+	background: #ca5b58;
+	opacity: 0.6;
+	transform:rotate(-55deg);
+	-ms-transform:rotate(-55deg); 
+	-moz-transform:rotate(-55deg); 
+	-webkit-transform:rotate(-55deg); 
+	-o-transform:rotate(-55deg); 
+	right: 0;
+	top: 0;
+}
+.line_box{
+	margin-top: 200px;
+	height: 950px;
+	width: 600px;
+}
+.line_up{
+	
+}
+.line_down{
+	width: 0px;
+	height: 2px;
+	background: #ca5b58;
+	opacity: 0.6;
+	transform:rotate(-55deg);
+	-ms-transform:rotate(-55deg);
+	-moz-transform:rotate(-55deg); 
+	-webkit-transform:rotate(-55deg); 
+	-o-transform:rotate(-55deg); 
+	left: 0;
+	bottom: 422px;
+}
+.ball{
+	position: absolute;
+	background: rgba(255,255,255,0.5);
+	width: 392px;
+	height: 392px;
+	border: 1px solid #bc7a59;
+	border-radius: 392px;
+	left: 128px;
+	top: 63px;
+	color: #e10c4d;
+	display: none;
+}
+.ball_title{
+	font-size: 20px;
+	line-height: 76px;
+}
+.ball_text{
+	width: 290px;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 26px;
+}
+#return{
+	cursor: pointer;
+	position: absolute;
+	right: 25%;
+	bottom: 150px;
+	display: block;
+	animation: updown 2s ease-in-out alternate infinite;
+}*/
