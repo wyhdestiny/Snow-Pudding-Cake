@@ -14,10 +14,10 @@ header{
 }
 .headroom--unpinned {
 	top: -92px;
-	}
+}
 .headroom--pinned {
 	top: 0;
-	}
+}
 
 
 
@@ -35,6 +35,7 @@ nav li{
 	float: left;
 	height: 60px;
 	position: relative;
+	cursor: pointer;
 }
 nav li a{
 	height: 24px;
@@ -71,6 +72,8 @@ nav li a{
 	z-index: -1;
 	bottom: 0;
 }
+
+
 /*第一部分*/
 .section{
 	background-attachment: fixed;
@@ -81,7 +84,38 @@ nav li a{
 	height: 1008px;
 	overflow: hidden;
 }
-.textbox{
+#section2{
+	background: url(../img/img2.jpg) repeat;
+	width: 100%;
+	height: 790px;
+	padding-top: 110px;
+	overflow: hidden;
+}
+#section3{
+	background: url(../img/cake13.jpg) no-repeat;
+	padding-top: 110px;
+	height: 790px;
+	overflow: hidden;
+}
+#section4{
+	background: url(../img/img3.jpg) repeat;
+	padding-top: 110px;
+	width: 100%;
+	height: 790px;
+	overflow-y: hidden;
+}
+#section5{
+	background: url(../img/img4.jpg) no-repeat;
+	padding-top: 110px;
+	height: 796px;
+}
+#section6{
+	background: #e85e5c;
+	padding-top: 110px;
+	height: 598px;
+	overflow: hidden;
+}
+/*.textbox{
 	margin-top: 335px;
 	width: 600px;
 	height: 440px;
@@ -113,9 +147,9 @@ nav li a{
 	text-shadow: 0 3px 3px #666;
 	/*display: none;*/
 }
-.textbox p:first-line{
+/*.textbox p:first-line{
 	font-size: 36px;
-}
+}*/
 /*.line_up{
 	width: 0px;
 	height: 2px;

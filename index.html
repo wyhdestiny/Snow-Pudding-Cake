@@ -7,8 +7,29 @@
 		<link rel="stylesheet" href="css/rester.css" />
 		<script src="js/index.js"></script>
 		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/headroom.js"></script>
+		<script src="js/jquery.headroom.js"></script>
+		<script src="js/jquery.color.js"></script>
 		<script src="js/jquery.stellar.min.js"></script>
 	</head>
+	<script type="text/javascript">
+		$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+				responsive: true
+			});
+			$("header").headroom({
+					offset : 0,
+					tolerance : 10,
+					classes : {
+						initial : "headroom",   // 当元素初始化后所设置的class
+						pinned : "headroom--pinned",   // 向上滚动时设置的class
+						unpinned : "headroom--unpinned"   // 向下滚动时所设置的class
+				}
+			});
+		})
+		
+	</script>
 	<body>
 	<!--header-->
 		<header>
@@ -76,7 +97,7 @@
 			The cake is a kind of pasta usually sweet, created a typical cake is baked. Cake materials mainly include the flour, sweetener (usually sucrose), adhesive (usually eggs
 		</p>
 				</div>
-				<!--<div class="line_box fr rel">
+				<div class="line_box fr rel">
 					<div class="line_up abs"></div>
 					<div class="line_down abs"></div>
 					<div class="ball tac">
@@ -86,8 +107,23 @@
 					</div>
 				</div>
 			</div>
-			<a href="javascript:void(0)" id="return"><img src="img/img12.png"></a>-->
+			<!--<a href="javascript:void(0)" id="return"><img src="img/img12.png"></a>-->
 		</section>
+	<!--第二部分-->
+		<section class="section rel" id="section2" data-stellar-background-ratio="0">
+		</section>
+	<!--第三部分-->
+		<section class="section rel" id="section3" data-stellar-background-ratio="0">
+		</section>	
+	<!--第四部分-->
+		<section class="section rel" id="section4" data-stellar-background-ratio="0">
+		</section>		
+	<!--第五部分-->
+		<section class="section rel" id="section5" data-stellar-background-ratio="0">
+		</section>		
+	<!--第六部分-->
+		<section class="section rel" id="section6" data-stellar-background-ratio="0">
+		</section>		
 		
 		
 		
@@ -122,26 +158,5 @@
 		
 		
 		
-		
-		
-		
-		
-		
-		
-	<script type="text/javascript">
-			$.stellar({
-				horizontalScrolling: false,
-				responsive: true
-			});
-			$("header").headroom({
-					offset : 0,
-					tolerance : 10,
-					classes : {
-					initial : "headroom",
-					pinned : "headroom--pinned",
-					unpinned : "headroom--unpinned"
-				}
-			});
-	</script>	
 	</body>
 </html>
