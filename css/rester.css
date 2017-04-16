@@ -21,7 +21,7 @@ button:hover{ cursor:pointer;}
 
 
 /*关键帧*/
-/*@keyframes love {
+@keyframes love {
 	from{
 		transform: rotate(90deg);
 		right: 180px;
@@ -56,9 +56,9 @@ button:hover{ cursor:pointer;}
 		top: 0px;
 		right: 0px;
 	}
-}*/
+}
 /*引号*/
-/*@keyframes fanzhuan {
+@keyframes fanzhuan {
 	0%{
 		top: 440px;
 		transform:rotateX(180deg);
@@ -133,4 +133,4 @@ button:hover{ cursor:pointer;}
 		-webkit-transform: translate(0,20px);
 		-moz-transform: translate(0,20px);
 	}
-}*/
+}

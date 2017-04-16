@@ -115,7 +115,7 @@ nav li a{
 	height: 598px;
 	overflow: hidden;
 }
-/*.textbox{
+.textbox{
 	margin-top: 335px;
 	width: 600px;
 	height: 440px;
@@ -145,12 +145,12 @@ nav li a{
 	font-size: 26px;
 	margin: 117px 0 0 105px;
 	text-shadow: 0 3px 3px #666;
-	/*display: none;*/
+	display: none;
 }
-/*.textbox p:first-line{
+.textbox p:first-line{
 	font-size: 36px;
-}*/
-/*.line_up{
+}
+.line_up{
 	width: 0px;
 	height: 2px;
 	background: #ca5b58;
@@ -213,4 +213,248 @@ nav li a{
 	bottom: 150px;
 	display: block;
 	animation: updown 2s ease-in-out alternate infinite;
-}*/
+}
+/*第二部分*/
+.f2_title{
+	font-size: 36px;
+	margin-left: 115px;
+}
+.f2_title span{
+	font-size: 28px;
+}
+.list_box{
+	width: 785px;
+	height: 451px;
+	margin: 10px auto;
+}
+.flower_box{
+	position: relative;
+	margin: 0 auto;
+}
+.list_boxin{
+	width: 786px;
+	height: 100%;
+	background: rgba(255,255,255,0.6);
+	padding: 53px 90px 0;
+	left: -90px;
+	z-index: 10;
+}
+.img_flower,.text_flower{
+	background: url(../img/img9.png) no-repeat;
+	width: 132px;
+	height: 134px;
+	position: absolute;
+}
+.img_flower{
+	transition: transform 1s;
+	transform:rotateY(0deg);
+	-webkit-transform:rotateY(0deg); 
+	-moz-transform:rotateY(0deg); 
+	z-index: 50;
+}
+.img_hover{
+	transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg); 
+	-moz-transform:rotateY(180deg);
+}
+.text_flower{
+	text-align: center;
+	padding-top: 36px;
+	transition: transform 1s;
+	transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg); 
+	-moz-transform:rotateY(180deg); 
+}
+.text_hover{
+	transform:rotateY(0deg);
+	-webkit-transform:rotateY(0deg);
+	-moz-transform:rotateY(0deg); 
+}
+.list_box img{
+	display: block;
+	margin: 12px auto 0;
+}
+.flower_box{
+	width: 132px;
+	height: 134px;
+	margin-bottom: 30px;
+}
+.list_box li{
+	width: 230px;
+	float: left;
+	margin-right: 47px;
+}
+.list_box li:last-child{
+	margin-right: 0;
+}
+.flower_title{
+	font-size: 16px;
+	text-align: center;
+	color: #474747;
+}
+.flower_text{
+	color: #474747;
+}
+.flower_text a{
+	color: #d5035c;
+}
+#section2>img{
+	position: absolute;
+	z-index: 0;
+}
+#cake1{
+	left: 35px;
+	top: 900px;
+}
+#cake2{
+	left: 323px;
+	top: 900px;
+}
+#cake3{
+	left: 728px;
+	top: 900px;
+}
+#cake4{
+	left: 1220px;
+	top: 900px;
+}
+#cake5{
+	right: 336px;
+	top: 900px;
+}
+#cake6{
+	right: 66px;
+	top: 900px;
+}
+#deer{
+	bottom: 60px;
+}
+.cakebox{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+}
+/*第三部分*/
+.f3_title{
+	font-size: 36px;
+	margin-left: 115px;
+	color: #e10c4d;
+}
+.f3_title span{
+	font-size: 28px;
+}
+.f3_title a{color: #7d4315;}
+.f3_title span a{color: #7d4315;}
+.img_box{
+	width: 1061px;
+	height: 533px;
+	margin: 25px auto 0;
+}
+.big_img_box{
+	width: 442px;
+	margin-right: 2px;
+}
+.img_box img{
+	display: block;
+}
+.big_img_box li:first-child{
+	margin-bottom: 2px;
+}
+.little_img_box{
+	width: 616px;
+}
+.little_img_box>ul>li{
+	float: left;
+	margin:0 2px 2px 0;
+	cursor: pointer;
+}
+.little_img_box li:nth-child(2n){
+	margin-right: 0;
+}
+.small_img_box{
+	width: 307px;
+}
+.small_img_box li{
+	float: left;
+}
+.img_box li{
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.img_mask{
+	position: absolute;
+	width: 80%;
+	padding: 0 10%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	right: 100%;
+	top: 0;
+	font-size: 24px;
+}
+
+.abs_box{
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+}
+.big_img_box .mask_zh{
+	margin-top: 100px;
+}
+.mask_link{
+	width: 310px;
+}
+#section3>img{
+	position: absolute;
+}
+#glasses{
+	left: 108px;
+}
+#ou{
+	left: 260px;
+}
+#tiramisu{
+	right: 336px;
+}
+#ktcake{
+	right: 66px;
+}
+.more{
+	width: 150px;
+	height: 42px;
+	position: relative;
+	display: block;
+	margin: 20px auto 0;
+	line-height: 42px;
+	font-size: 18px;
+	cursor: pointer;
+}
+.more1{
+	border: 1px solid #fff;
+}
+.more2{
+	border: 1px solid #efa527;
+	color: #efa527;
+}
+.more span{
+	display: block;
+	left: 50%;
+	top: 0;
+	height: 42px;
+	width: 0;
+	z-index: 0;
+}
+.more1 span{
+	background: #fff;
+}
+.more2 span{
+	background: #efa527;
+}
+.more p{
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	width: 100%;
+}
