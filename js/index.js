@@ -44,6 +44,9 @@ window.onload=function(){
 	//3
 	var imgs = document.getElementsByClassName('f3img');
 	var speed3 = Math.random();
+	//4
+	var bis = document.getElementsByClassName('biscuits');
+	var speed4 = Math.random();
 	
 	window.onscroll = function(){
 		var scr = document.documentElement.scrollTop||document.body.scrollTop;
@@ -75,6 +78,14 @@ window.onload=function(){
 			}
 		}
 		
+		//4
+		for(var k =0 ;k<=bis.length-1;k++){
+			if (k%2 ==0){
+				bis[k].style.top = (scr - 2700)*(speed4*(k+1)+1)+'px';
+			}else{
+				bis[k].style.top = -(scr - 2900)*(speed4*(k+1)+1)+'px';
+			}
+		}
 		
 	}
 
@@ -101,5 +112,76 @@ window.onload=function(){
 
 
 
+//手风琴
+	$(function(){
+		$(".accordion li").hover(function(){
+			$(this).stop().animate({width:"594px"},600);
+			$(this).find(".acc_mask").stop().fadeOut();
+			$(this).siblings().stop().animate({width:"131px"},600);
+			$(this).siblings().find(".acc_mask").stop().fadeIn();
+		})
+	})
+	
+	
+	
+	$("#sub").click(function(){
+		var namee=$("#namee").val();
+		var rega =/(^0{0,1}1[3|4|5|6|7|8|9][0-9]{9}$)/;
+		var tell=$("#tell").val()
+		var emaill=$("#emaill").val();
+		var regb=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+		var contt=$("#contt").val();
+		//验证姓名
+		if(namee==""){
+			alert("亲，请写姓名!");
+		}
+		else if(tell==""){
+			alert("亲，请输入您的电话!");
+		}
+		else if(!rega.test(tell)){
+			alert("亲，请输入正确的电话!");
+		}
+		else if(emaill==""){
+			alert("亲，请输入邮箱!")
+		}
+		else if(!regb.test(emaill)){
+			alert("亲，请输入正确的邮箱!");
+		}
+		else if(contt==""){
+			alert("亲，请输入内容！")
+		}
+		else if{
+			alert(1)
+			$("#namee").val().empty();
+//			tell.empty();
+//			emaill.empty();
+//			contt.empty();
+		}
+	})
+	
+	
+	
+	//回顶部
+	function gotoTop(){
+		$("#gotop").click(
+			function(){
+				$('html,body').animate({scrollTop:0},700);
+		}).hover(
+			function(){
+				$(this).addClass("hover");
+			},
+			function(){
+				$(this).removeClass("hover");
+			});
+		};
+		gotoTop();
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
