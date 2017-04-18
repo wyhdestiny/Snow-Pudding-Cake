@@ -149,13 +149,9 @@ window.onload=function(){
 		}
 		else if(contt==""){
 			alert("亲，请输入内容！")
-		}
-		else if{
+		}else{
 			alert(1)
-			$("#namee").val().empty();
-//			tell.empty();
-//			emaill.empty();
-//			contt.empty();
+			$("#namee,#tell,#emaill,#contt").val('');
 		}
 	})
 	
